@@ -1,0 +1,42 @@
+CTA700/Debug SATC SNCF/
+CTA700/Installations/*/*.exe
+YmIcDte/LibDebug/
+YmIcDte/LibRelease/
+YmIc/Debug/YMPersistentChildWnd.obj
+YmIc/Debug/YMPersistenceDlg.sbr
+YmIc/Debug/
+YmIc/Release/
+YMIncludes/Release/
+YmResource_French/Debug/
+YmResource_French/Release/
+YMResource_English/Debug/
+YmResource_English/Release/
+YMRESOURCE_SQL_YNG/Debug/YMResource_SQL_Ng.pch
+YMRESOURCE_SQL_YNG/Debug/
+YMRESOURCE_SQL_THALYS/Debug/
+YMRESOURCE_SQL_THALYS/Release/
+YMRESOURCE_SQL_AUTOTRAIN/Debug/
+YMRESOURCE_SQL_AUTOTRAIN/Release/
+YmResource_MoteurVNL/Debug/
+YmResource_MoteurVNL/Release/
+YMRESOURCE_SQL_ALLEO/Debug/
+YMRESOURCE_SQL_ALLEO/Release/
+YMRESOURCE_SQL_AUTOTRAIN/Release/
+YMRESOURCE_SQL_YNG/Release/
+YMRESOURCE_SQL_YNG/Release TRAIN AUTO/
+YMRESOURCE_SQL_ALLEO/Release TRAIN AUTO/
+YMRESOURCE_SQL_AUTOTRAIN/Release/
+YMRESOURCE_SQL_YNG/Release/
+YMRESOURCE_SQL_THALYS/Release TRAIN AUTO/
+YmResource_MoteurVNL/YMResource_MoteurVNL.h
+YmResource_MoteurVNL/YMResource_MoteurVNL.tlb
+YmResource_MoteurVNL/YMResource_MoteurVNL_i.c
+CTA700/SATC.ncb
+CTA700/Debug T-RESA/
+CTA700/Debug SATC TRAIN AUTO/
+CTA700/Debug SATC ALLEO/
+CTA700/SATC.suo
+CTA700/Release TRAIN AUTO/
+CTA700/Release ALLEO/
+CTA700/Release SNCF/
+CTA700/Release T-RESA/

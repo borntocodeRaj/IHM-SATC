@@ -1,0 +1,393 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "CTA_Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "LangResourceThales.h"
+#include "YMIC_Resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Anglais (États-Unis) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "CTA_Resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""LangResourceThales.h""\r\n"
+    "#include ""YMIC_Resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#undef IDC_STATIC\r\n"
+    "\r\n"
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\CTA700.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_CTA_MAINFRAME       ICON                    "res\\CTA.ico"
+IDR_CTA_RESARAIL        ICON                    "res\\resarail.ico"
+IDR_CTA_TRANLIST        ICON                    "res\\tranche.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_CTA_MAINFRAME       BITMAP                  "res\\CTA_MainToolbar.bmp"
+IDB_STATUS_BITMAP       BITMAP                  "res\\CTAStatus.bmp"
+IDB_STATUS_BITMAP_SUPPLEMENT BITMAP                  "res\\CTAStatus_Supplement.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 217, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About CTA"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_CTA_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CTA Version 8.5.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2015",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,185,1,32,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 8,5,0,0
+ PRODUCTVERSION 8,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "BULL"
+            VALUE "FileDescription", "CTA MFC Application"
+            VALUE "FileVersion", "8, 5, 0, 0"
+            VALUE "InternalName", "CTA"
+            VALUE "LegalCopyright", "Copyright (C) 2015"
+            VALUE "OriginalFilename", "CTA.EXE"
+            VALUE "ProductName", "CTA Application"
+            VALUE "ProductVersion", "8, 5, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_CTA_MAINFRAME TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_CTA_MAINFRAME ACCELERATORS 
+BEGIN
+    " ",            ID_FRONTBACK_RRDHIST,   ASCII,  NOINVERT
+    "E",            ID_LEG_SEND_NOQUERY,    VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          ID_TOGGLE_RRD_DISPLAY,  VIRTKEY, NOINVERT
+    VK_F3,          ID_TOGGLE_SHOW_WINDOWS_1, VIRTKEY, NOINVERT
+    VK_F4,          ID_TOGGLE_SHOW_WINDOWS_2, VIRTKEY, NOINVERT
+    VK_F2,          ID_TRANCHE_REVERSE_SELECTION, VIRTKEY, NOINVERT
+    "C",            ID_VNAX_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_VNAX_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_VNAX_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_VNAX_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_VNAX_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_VNAX_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "A",            ID_VNAX_SELECTALL,      VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_VNAX_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_SELECTION_AFF_PMOYEN, VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_CTA_RES_TRACER      "dummy, used only as child window ID "
+    IDR_CTATYPE             "\nCTA\nSATC--CTA\n\n\nCTA.Document\nCTA Document"
+    IDS_CTA_BKTHIST_ALT_KEY "BUCKET HISTORY ALT"
+    IDS_CTA_BKTHIST_KEY     "BUCKET HISTORY"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CTA_COMPTAGES_ALT_KEY "COMPTAGES ALT"
+    IDS_CTA_COMPTAGES_KEY   "COMPTAGES"
+    IDS_CTA_HISTDPT_ALT_KEY "DEPARTURE HISTORY ALT"
+    IDS_CTA_HISTDPT_KEY     "DEPARTURE HISTORY"
+    IDS_CTA_LEGLIST_KEY     "LEG LIST"
+    IDS_CTA_OTHLEGS_ALT_KEY "OTHER LEGS ALT"
+    IDS_CTA_OTHLEGS_KEY     "OTHER LEGS"
+    IDS_CTA_RELTRANCHE_ALT_KEY "RELATED TRANCHES ALT"
+    IDS_CTA_RELTRANCHE_KEY  "RELATED TRANCHES"
+    IDS_CTA_RESARAIL_KEY    "RESA RAIL"
+    IDS_CTA_RRDHIST_ALT_KEY "RRD HISTORY ALT"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CTA_RRDHIST_KEY     "RRD HISTORY"
+    IDS_CTA_TRACER_KEY      "VNL & VNAU TRACER"
+    IDS_CTA_TRAINADAPTATION_KEY "TRAIN ADAPTATION"
+    IDS_CTA_TRAINDELETED_KEY "TRANCHE DELETED"
+    IDS_CTA_TRAINSUPPLEMENT_KEY "TRANCHE SUPPLEMENT"
+    IDS_CTA_TRANLIST_KEY    "TRANCHE LIST"
+    IDS_CTA_VERSION_NO      "Version 8.5.0"
+    IDS_CTA_CALENDRIER_KEY  "CALENDRIER"
+    IDS_CTA_VIRTNEST_KEY    "VIRTUAL NESTING"
+    IDS_CTA_VNAX_KEY        "SEND VNAX"
+    IDS_CTA_VNL_ENGINE_KEY  "VNLENGINE"
+    IDS_CTA_VNL_KEY         "AUTOMATIC VNL"
+    IDS_CTA_RECDHIST_KEY    "RECD HISTORY"
+    IDS_CTA_RECDHIST_ALT_KEY "RECD HISTORY ALT"
+    IDS_CTA_VNAULIST_KEY    "VNAU LIST"
+    IDS_CTA_TRAQUETARIF_KEY "TRAQUETARIF"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CTA_SUIVI_VNAU_KEY  "SUIVI VNAU"
+    IDS_CTA_MOTEUR_VNAX_KEY "MOTEUR VNAX"
+    IDS_CTA_SUIVI_VNAX_KEY  "SUIVI VNAX"
+    IDS_CTA_SUIVI_TOPIST_KEY 
+                            "Historique des TOP Thalès / TOP RR / IST / Niveaux"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_CTA_SUIVI_TOPIST    "\nHistorique des TOP Thalès / TOP RR / IST / Niveaux\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_HISTDPT         "\nDEPARTURE HISTORY\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_HISTDPT_ALT     "\nDEPARTURE HISTORY ALT\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_LEGLIST         "\nLEG LIST\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_OTHLEGS         "\nOTHER LEGS\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_OTHLEGS_ALT     "\nOTHER LEGS ALT\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_RELTRANCHE      "\nRELATED TRANCHES\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_RELTRANCHE_ALT  "\nRELATED TRANCHES ALT\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_RESARAIL        "\nRESA RAIL\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_MOTEUR_VNAX     "\nMOTEUR VNAX\nSATC--CTA\nVNAX files(*.txt)\n.txt\n\nCTA Document"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_CTA_RRDHIST         "\nRRD HISTORY\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_RRDHIST_ALT     "\nRRD HISTORY ALT\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_TRACER          "\nVNL & VNAU TRACER\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_TRAINADAPTATION "\nTRAIN ADAPTATION\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_TRAINDELETED    "\nTRANCHE DELETED\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_TRAINSUPPLEMENT "\nTRANCHE SUPPLEMENT\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_TRANLIST        "\nTRANCHE LIST\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_VIRTNEST        "\nVIRTUAL NESTING\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_VNAX            "\nSEND VNAX\nSATC--CTA\nVNAX files(*.txt)\n.txt\n\nCTA Document"
+    IDR_CTA_VNL             "\nAUTOMATIC VNL\nSATC--CTA\nVNL files(*.txt)\n.txt\n\nCTA Document"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_CTA_VNLENGINE       "\nVNLENGINE\nSATC--CTA\nVNL files(*.txt)\n.txt\n\nCTA Document"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_CTA_MAINFRAME       "SATC--CTA"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_CTA_TRAQUETARIF     "\nTRAQUETARIF\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_BKTHIST         "\nBUCKET HISTORY\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_BKTHIST_ALT     "\nBUCKET HISTORY ALT\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_SUIVI_VNAU      "\nSUIVI VNAU\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_SUIVI_VNAX      "\nSUIVI VNAX\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_COMPTAGES       "\nCOMPTAGES\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_COMPTAGES_ALT   "\nCOMPTAGES ALT\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_CALENDRIER      "\nCALENDRIER\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "SATC--CTA"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_HELP                 "Help"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_CTA_RECDHIST        "\nRECD HISTORY\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+    IDR_CTA_RECDHIST_ALT    "\nRECD HISTORY ALT\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_CTA_VNAULIST        "\nVNAU LIST\nSATC--CTA\n\n\nCTA Document\nCTA Document"
+END
+
+#endif    // Anglais (États-Unis) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Français (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_CTA_MOTEUR_VNAX     ICON                    "res\\vnaxengine.ico"
+IDR_CTA_SUIVI_VNAU      ICON                    "res\\suivivnau.ico"
+IDR_CTA_SUIVI_VNAX      ICON                    "res\\suivivnax.ico"
+IDR_CTA_SUIVI_TOPIST    ICON                    "res\\suivitopist.ico"
+IDR_CTA_BKTHIST         ICON                    "res\\bkthist.ico"
+IDR_CTA_LEGLIST         ICON                    "res\\leg.ico"
+IDR_CTA_OTHLEGS         ICON                    "res\\othlegs.ico"
+IDR_CTA_OTHLEGS_ALT     ICON                    "res\\othlegs.ico"
+IDR_CTA_RELTRANCHE      ICON                    "res\\reltran.ico"
+IDR_CTA_RELTRANCHE_ALT  ICON                    "res\\reltran.ico"
+IDR_CTA_BKTHIST_ALT     ICON                    "res\\bkthist.ico"
+IDR_CTA_RRDHIST         ICON                    "res\\rrdhist.ico"
+IDR_CTA_RRDHIST_ALT     ICON                    "res\\rrdhist.ico"
+IDR_CTA_HISTDPT         ICON                    "res\\histdpt.ico"
+IDR_CTA_HISTDPT_ALT     ICON                    "res\\histdpt.ico"
+IDR_CTA_RRDHISTREV      ICON                    "res\\rrdhirev.ico"
+IDR_CTA_VIRTNEST        ICON                    "res\\virtnest.ico"
+IDR_CTA_TRACER          ICON                    "res\\tracer.ico"
+IDR_CTA_VNAX            ICON                    "res\\vnax.ico"
+IDR_CTA_VNL             ICON                    "res\\vnlauto.ico"
+IDR_CTA_VNLENGINE       ICON                    "res\\vnlengine.ico"
+IDR_CTA_COMPTAGES       ICON                    "res\\comptages.ico"
+IDR_CTA_COMPTAGES_ALT   ICON                    "res\\comptages.ico"
+IDR_CTA_TRAINSUPPLEMENT ICON                    "res\\trainsupplement.ico"
+IDR_CTA_TRAINADAPTATION ICON                    "res\\trainsupplement.ico"
+IDR_CTA_TRAINDELETED    ICON                    "res\\trainsupplement.ico"
+IDR_CTA_VNAULIST        ICON                    "res\\vnaulist.ico"
+IDR_CTA_CALENDRIER      ICON                    "res\\calendar.ico"
+IDR_CTA_MAINFRAME       ICON                    "res\\cta.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PATTERN25           BITMAP                  "res\\Patter25.bmp"
+IDB_VNAS_BITMAP         BITMAP                  "res\\CTAVnas.bmp"
+#endif    // Français (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#undef IDC_STATIC
+
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\CTA700.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
